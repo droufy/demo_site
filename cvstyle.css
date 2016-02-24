@@ -1,3 +1,26 @@
+@media all and (max-width: 700px) /* définition de résolution */
+{
+
+aside
+	{
+	display: block;
+	}
+
+#bloc_page
+{
+
+width: auto;
+}
+
+nav
+{
+	display: none;
+
+}
+}
+
+
+
 @font-face { /* Définition d'une nouvelle police nommée Quicksand_Dash */
 font-family: 'Quicksand_Dash';
 src: url('Quicksand_Dash.otf');
@@ -78,3 +101,4 @@ header
 	vertical-align: top;
 	margin-left: 195px;
 }
+
