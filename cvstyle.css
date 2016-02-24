@@ -1,0 +1,45 @@
+@font-face { /* Définition d'une nouvelle police nommée Quicksand_Dash */
+font-family: 'Quicksand_Dash';
+src: url('Quicksand_Dash.otf');
+src: url('Quicksand_Dash.otf-webfont.eot?#iefix') format('embedded-opentype'),
+url('Quicksand_Dash.otf') format('woff'),
+url('Quicksand_Dash.otf') format('truetype'),
+}
+body  /* image de fond */
+{
+background-image: url("imagefond.png");
+}
+#balisa  /* Style du nom et prénom */
+{
+	font-size: 3em;
+	font-style: italic;
+	text-align: center; /* Changer l'alignement d'un des textes */
+}
+h2  /* style des titres des parties */
+{
+color: blue; /*Changer la couleur d'un des textes*/
+font-size: 2.5em;
+border: 3px blue dashed;  /* bordure d'un élément */
+}
+h1  /* titre du CV */
+{
+	font-style: italic;
+	text-align: center;
+	font-family: 'Quicksand_Dash', Arial, serif;
+	font-size: 2em;
+	box-shadow: 6px 6px 6px black; /* ombre d'un élément */
+	
+}
+#photo 
+{
+float: right;
+}
+
+article
+{
+	
+	width: 15%;
+}
+
+
+
